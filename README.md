@@ -1,6 +1,7 @@
 # shopify-ruby-demo
 
-A demo app with Ruby &amp; Sinatra for Shopify Admin app
+A demo app with Ruby &amp; Sinatra for Shopify Admin app (development use only)
+
 
 ## Requirements
 * Ruby
@@ -8,6 +9,16 @@ A demo app with Ruby &amp; Sinatra for Shopify Admin app
 * Shopify Partners account
 
 ## Run
+
+Start ngrok with port 4567.
+
+```
+./ngrok http 4567
+```
+
+Copry the ngrok URL and add it in app.rb & the Shopify App settings.
+
+Run the Sinatra app.
 
 ```
 ruby app.rb
