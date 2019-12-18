@@ -16,7 +16,11 @@ Start ngrok with port 4567.
 ./ngrok http 4567
 ```
 
-Copry the ngrok URL and add it in app.rb & the Shopify App settings.
+Copry the ngrok URL and add it in app.rb & the Shopify App settings, something link below:
+
+```
+https://78ce07c3.ngrok.io
+```
 
 Run the Sinatra app.
 
